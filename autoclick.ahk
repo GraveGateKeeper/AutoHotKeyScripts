@@ -10,12 +10,9 @@ While GetKeyState("LButton", "P"){
 Click Left
 }
 
-return
+~$RButton::
 
-
-;~$XButton1::
-
-;Sleep 100 ; milliseconds
-;While GetKeyState("XButton1", "P"){
-;Click Right
-;}
+Sleep 150 ; milliseconds
+While GetKeyState("RButton", "P"){
+Click Right
+}
